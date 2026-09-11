@@ -89,7 +89,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Fetch gh-pages for mike
-        run: git fetch origin gh-pages:gh-pages --force
+        run: git fetch origin gh-pages:gh-pages --force || true
 
       - name: Deploy dev docs
         if: github.ref == 'refs/heads/main'
