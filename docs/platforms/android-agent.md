@@ -103,7 +103,7 @@ The server emits standard `android.app.extra.PROVISIONING_*` keys. Admin extras 
 
 When `TIMEKPR_SERVER_VERSION` matches a GitHub release tag (e.g. `v1.2.3`), the WebUI defaults to:
 
-- APK: `https://github.com/pantherale0/timekpr-webui/releases/download/{tag}/guardian-android-agent-{tag}.apk`
+- APK URL: read `agent-android` / `android-apk` from the [compiled versions feed](https://guardian-parental-controls.github.io/versions/feed.json)
 - Checksum: companion `guardian-android-agent-{tag}.signature-checksum` asset
 
 #### Development servers
@@ -417,7 +417,7 @@ The Android agent handles this automatically:
 3. Installs via `PackageInstaller` (silent when device owner; may prompt on sideload-only installs per Android platform rules)
 4. Reconnects after install via `PACKAGE_REPLACED` / install callback
 
-**Release servers:** APK from `https://github.com/pantherale0/timekpr-webui/releases/download/{tag}/guardian-android-agent-{tag}.apk` with companion `.signature-checksum` asset.
+**Release servers:** APK URL and signature checksum come from the `agent-android` entry in the [compiled versions feed](https://guardian-parental-controls.github.io/versions/feed.json).
 
 **Development servers:** Upload a signed release APK in **Settings → Android MDM provisioning QR**; the server serves it at `/api/pairing/provisioning/apk` (admin session required) and includes that URL in the update response.
 

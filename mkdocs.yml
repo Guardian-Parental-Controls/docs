@@ -1,9 +1,9 @@
 site_name: Guardian Documentation
 site_description: Cross-platform parental controls — server, agents, and cloud console integration
-site_url: https://pantherale0.github.io/timekpr-webui/
-repo_url: https://github.com/pantherale0/timekpr-webui
-repo_name: pantherale0/timekpr-webui
-edit_uri: edit/master/docs/
+site_url: https://guardian-parental-controls.github.io/docs/
+repo_url: https://github.com/Guardian-Parental-Controls/docs
+repo_name: Guardian-Parental-Controls/docs
+edit_uri: edit/main/docs/
 
 remote_branch: gh-pages
 
@@ -49,7 +49,7 @@ extra:
     provider: mike
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/pantherale0/timekpr-webui
+      link: https://github.com/Guardian-Parental-Controls/platform
 
 markdown_extensions:
   - admonition
@@ -72,6 +72,7 @@ nav:
       - Overview: getting-started/overview.md
       - vs commercial parental controls: getting-started/comparison.md
       - Server deployment: getting-started/server-deployment.md
+      - Migrating from 0.x: getting-started/v1-migration.md
       - Configuration: getting-started/configuration.md
       - Security: getting-started/security.md
   - Platforms:

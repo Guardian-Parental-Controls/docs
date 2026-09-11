@@ -70,7 +70,7 @@ Update relevant pages under `docs/` when changing user-visible behavior. Build l
 mkdocs build --strict
 ```
 
-See [Local development](local-dev.md) and [AGENTS.md](https://github.com/pantherale0/timekpr-webui/blob/master/AGENTS.md) for AI/agent contributor notes.
+See [Local development](local-dev.md) and [AGENTS.md](https://github.com/Guardian-Parental-Controls/platform/blob/master/AGENTS.md) for AI/agent contributor notes. UI-string changes must be opened in [Guardian-Parental-Controls/translations](https://github.com/Guardian-Parental-Controls/translations) first, then linked from the product pull request with `Translations: #<number>`.
 
 ## Related
 

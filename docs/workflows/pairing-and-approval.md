@@ -20,7 +20,7 @@ sequenceDiagram
 
 ## Linux
 
-1. Run [install script](https://github.com/pantherale0/timekpr-webui/blob/master/scripts/install-agent.sh) or install binary manually with `server_url` and bootstrap token.
+1. Run the [Linux install script](https://github.com/Guardian-Parental-Controls/agent-linux/blob/main/scripts/install-agent.sh) or install a binary from the URL published in the [versions feed](https://guardian-parental-controls.github.io/versions/feed.json).
 2. Approve in **Admin → Devices**.
 3. Map `/etc/passwd` username to child account.
 

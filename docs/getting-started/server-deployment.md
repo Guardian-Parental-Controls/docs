@@ -12,8 +12,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/pantherale0/timekpr-webui.git
-   cd timekpr-webui
+   git clone https://github.com/Guardian-Parental-Controls/platform.git
+   cd platform
    ```
 
 2. Copy `.env.example` to `.env` and configure:
